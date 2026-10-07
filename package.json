@@ -1,0 +1,15 @@
+{
+  "name": "company-kyb-lookup",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Resolve company names to their LEI and SEC CIK in one run. Python, Node.js and cURL clients for the Company KYB Lookup on Apify, pay per result.",
+  "main": "company_kyb_lookup.mjs",
+  "scripts": {
+    "start": "node company_kyb_lookup.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT",
+  "homepage": "https://themineworks.com/actors/company-identity-resolver/"
+}
